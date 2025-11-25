@@ -23,11 +23,14 @@ header {
   justify-content: space-between;
   align-items: center;
   width: 100vw;
+  padding-top: 10px;
 }
 
 nav a {
   color: var(--akzente);
   text-decoration: none;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: bold;
 }
 
 .img_logo {
@@ -40,7 +43,7 @@ nav a {
   justify-content: space-around;
   align-items: center;
   width: 530px;
-  padding-right: 20px;
+  padding-right: 80px;
 }
 
 main img {
@@ -156,6 +159,7 @@ button:hover {
 .gallerie-bilder img {
   width: 350px;
   height: 400px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
 }
 
 footer {
@@ -185,7 +189,7 @@ footer {
   justify-content: space-between;
   align-items: center;
   gap: 40px;
-  padding-right: 20px;
+  padding-right: 30px;
 }
 
 footer img {
