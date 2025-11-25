@@ -1,0 +1,193 @@
+:root {
+  --secondcolor: #9a6d8a;
+  --maincolor: #f5ecef;
+  --akzente: #c0e8d9;
+}
+
+body {
+  margin: 0;
+  background-color: var(--maincolor);
+  overflow-x: hidden;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--secondcolor);
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+}
+
+nav a {
+  color: var(--akzente);
+  text-decoration: none;
+}
+
+.img_logo {
+  width: 80px;
+  padding-left: 20px;
+}
+
+.nav_a_link {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 530px;
+  padding-right: 20px;
+}
+
+main img {
+  width: 100%;
+  object-fit: cover;
+  height: 630px;
+}
+
+main h2 {
+  position: absolute;
+  top: 480px;
+  left: 20px;
+  font-size: 36px;
+  color: black;
+  font-family: "Josefin Sans", sans-serif;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.icon-img {
+  width: 60px;
+  height: 60px;
+}
+
+h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0 30px 0;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 26px;
+}
+
+.wbg-kaufen {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 80px;
+  padding: 0 20px 0 20px;
+}
+
+.wbg-kaufen-div {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 1000px;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 18px;
+  transition: all 0.3s ease;
+  border-style: inset;
+  padding-top: 10px;
+}
+
+#middel-div {
+  border-style: outset;
+}
+
+.wbg-kaufen-button {
+  display: flex;
+  justify-content: center;
+  padding: 40px 0 60px 0;
+}
+
+button {
+  width: 300px;
+  height: 50px;
+  background-color: var(--akzente);
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 24px;
+  text-align: center;
+  border: none;
+  transition: all 0.3s ease;
+  border-radius: 1px;
+  transition: all 0.3s ease;
+  box-sizing: border-box;
+}
+
+button:hover {
+  cursor: pointer;
+  color: #000;
+  background-color: #c0e8d9; /* neon Hintergrund */
+  box-shadow: 0 0 10px #c0e8d9, 0 0 20px #c0e8d9, 0 0 40px #c0e8d9,
+    0 0 80px #c0e8d9;
+  transform: scale(1.08);
+  transform: translateY(-3px);
+}
+
+.Kunstwerk-section-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.Kunstwerk-section-title h3 {
+  font-size: 36px;
+  margin: 0;
+  padding-bottom: 15px;
+}
+.Kunstwerk-section-title p {
+  font-size: 18px;
+  margin: 0;
+  padding-bottom: 30px;
+  font-family: "Josefin Sans", sans-serif;
+}
+.kunstwerke {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 0 30px 0;
+}
+
+.gallerie-bilder img {
+  width: 350px;
+  height: 400px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--secondcolor);
+  align-items: center;
+  padding-top: 5px;
+}
+
+.agbs {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+  width: 500px;
+  padding-left: 160px;
+}
+
+.agbs a {
+  color: var(--akzente);
+  text-decoration: none;
+}
+
+.footer-icon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  padding-right: 20px;
+}
+
+footer img {
+  width: 50px;
+}
