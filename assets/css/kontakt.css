@@ -1,0 +1,99 @@
+:root {
+  --secondcolor: #9a6d8a;
+  --maincolor: #f5ecef;
+  --akzente: #c0e8d9;
+}
+
+body{
+    background-image: url("../img/Design\ ohne\ Titel.png");
+    background-size: cover;          /* Bild füllt den gesamten Bildschirm */
+    background-repeat: no-repeat;    /* kein Wiederholen */
+    background-attachment: fixed;    /* bleibt fix, schönes Parallax-Feeling */
+    background-position: center; 
+}
+
+.form_div {
+  display: flex;
+  justify-content: space-around;
+  padding: 70px;
+}
+
+.my-form * {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.angaben {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.my-form {
+  width: 500px;
+  height: 545px;
+  padding: 0 1.5rem;
+  border-style: solid;
+  border-color: #c0e8d9;
+  border-width: 3px;
+  border-radius: 16px;
+  background-color: #f5ecef;
+}
+
+.my-form label {
+  display: block;
+  padding: 1.2rem 0 0.2rem 0;
+  font-weight: 700;
+  font-size: 1rem;
+  color: #374151;
+}
+
+.my-form input,
+.my-form textarea {
+  display: block;
+  width: 100%;
+  font-size: 1rem;
+  padding: 0.7rem;
+  background-color: #fff;
+  border: 3px solid #d1d5db;
+  outline: none;
+  border-radius: 0.5rem;
+  color: #000;
+  transition: 300ms border;
+}
+
+.my-form textarea {
+  resize: none;
+  height: 220px;
+}
+
+.my-form input:focus,
+.my-form textarea:focus {
+  background-color: #fff;
+  border-color: #2563eb;
+}
+
+.my-form input:focus:required:invalid {
+  background-color: #fff;
+  border-color: #e74694;
+}
+
+.my-form .btns-row {
+  margin-top: 1rem;
+  text-align: right;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.my-form button {
+  display: inline-block;
+  padding: 0.65rem 1rem;
+  border-radius: 0.5rem;
+  border-color: transparent;
+
+  color: black;
+  font-weight: 700;
+  font-size: 1rem;
+
+  cursor: pointer;
+}
