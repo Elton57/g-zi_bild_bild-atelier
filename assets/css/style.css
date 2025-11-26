@@ -15,6 +15,7 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 80px;
   background-color: var(--secondcolor);
 }
 
@@ -23,7 +24,7 @@ header {
   justify-content: space-between;
   align-items: center;
   width: 100vw;
-  padding-top: 10px;
+  padding-top: 0px;
 }
 
 nav a {
@@ -34,7 +35,7 @@ nav a {
 }
 
 .img_logo {
-  width: 80px;
+  width: 130px;
   padding-left: 20px;
 }
 
@@ -168,6 +169,10 @@ footer {
   background-color: var(--secondcolor);
   align-items: center;
   padding-top: 5px;
+   
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+
+
 }
 
 .agbs {

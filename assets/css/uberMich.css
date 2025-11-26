@@ -1,0 +1,86 @@
+:root {
+  --secondcolor: #9a6d8a;
+  --maincolor: #f5ecef;
+  --akzente: #c0e8d9;
+}
+
+.img_uber_mich_div{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.img_uber_mich_div img{
+    width: 800px;
+    height: 400px
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 80px;  
+   box-shadow: 0 15px 25px -10px var(--akzente);
+
+}
+main {
+  display: flex;
+  align-items: center;
+  padding: 30px 10px 30px 10px;
+}
+
+main img {
+  width: 600px;
+  height: 600px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25), 
+                0 6px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 16px;
+}
+
+main section {
+  display: flex;
+  justify-content: space-around;
+  width: 100vw;
+}
+
+main span {
+  width: 400px;
+}
+
+.farbfleck_div img{
+    width: 800px;
+        position: absolute;
+    top: 1200px;
+}
+
+.meine_kunst_img_div{
+    display: flex;
+    justify-content: center;
+}
+
+.meine_kunst_img_div img{
+    width: 800px;
+}
+
+.meine_kunst_section{
+    display: flex;
+    justify-content: space-around;
+}
+
+.meine_kunst_section img{
+    width: 600px;
+  height: 600px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25), 
+                0 6px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 16px;
+}
+
+.meine_kunst_section span{
+    width: 400px;
+}
+
+.ueber_mich_button_div{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
