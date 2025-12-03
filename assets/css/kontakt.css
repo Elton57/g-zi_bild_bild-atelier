@@ -10,8 +10,17 @@ body{
     background-repeat: no-repeat;    /* kein Wiederholen */
     background-attachment: fixed;    /* bleibt fix, schönes Parallax-Feeling */
     background-position: center; 
+  min-height: 100vh;
 }
 
+.body_kontakt {
+  min-height: 100vh;        /* Seite mindestens so hoch wie der Viewport */
+  display: flex;
+  flex-direction: column; }
+
+  main{
+    flex: 1;
+  }
 .form_div {
   display: flex;
   justify-content: space-around;
