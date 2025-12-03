@@ -1,3 +1,9 @@
+:root {
+  --secondcolor: #9a6d8a;
+  --maincolor: #f5ecef;
+  --akzente: #c0e8d9;
+}
+
 .title_img {
   width: 800px;
   height: 400px;
@@ -14,7 +20,7 @@
   justify-content: space-around;
   flex-wrap: wrap;
   gap: 50px;
-  padding: 50px 16px 70px;
+  padding: 0 16px 70px 16px;
   max-width: 1400px;
   margin: 0 auto;
   min-width: 0;
@@ -25,5 +31,75 @@
   height: 300px;
   border-radius: 16px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+  object-fit: cover;
+}
+
+.img_selector img:hover{
+    transform: scale(1.08);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+/*Dialog Styly*/
+
+.Img_box {
+  width: 200px;
+  height: 200px;
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dialog_selector{
+  background-color: var(--maincolor);
+  border-radius: 16px;
+}
+
+.dialog_btn {
+  display: flex;
+  justify-content: center;
+}
+
+.btnClose:hover {
+  cursor: pointer;
+}
+
+.backBtn:hover {
+  cursor: pointer;
+}
+
+.nextBtn:hover {
+  cursor: pointer;
+}
+
+.dialog_btn img {
+  width: 50px;
+  height: 50px;
+}
+
+.img_direction_div {
+  display: flex;
+  justify-content: space-around;
+}
+
+.img_direction_div img {
+  width: 50px;
+  height: 50px;
+}
+
+.img_counter,
+.img_name {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.dialogGallery {
+  width: 380px;
+  height: 380px;
+  margin-top: 10px;
   object-fit: cover;
 }
