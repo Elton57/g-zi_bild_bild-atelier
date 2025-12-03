@@ -1,0 +1,1 @@
+const dialogRef = document.getElementById("dialogBox")

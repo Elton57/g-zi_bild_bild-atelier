@@ -32,7 +32,7 @@
     <div class="title_img_div"><img class="title_img" src="../assets/img/Meine_kunst.png" alt=""></div>
 
     <main>
-        <div class="img_selector">
+        <div class="img_selector" id="imgSelector">
             <img src="../assets/img/gallerie/bild_1.jpg" alt="">
             <img src="../assets/img/gallerie/bild_2.jpg" alt="">
             <img src="../assets/img/gallerie/bild_3.jpg" alt="">
@@ -42,6 +42,25 @@
             <img src="../assets/img/gallerie/bild_7.jpg" alt="">
             <img src="../assets/img/gallerie/bild_8.jpg" alt="">
         </div>
+
+        <dialog class="dialog_selector" id="dialogBox">
+            <div class="dialog_btn">
+                <img class="btnClose" id="close-btn" src="../assets/img/icons/close.png" alt="">
+            </div>
+
+            <div class="img_name" id="filname"></div>
+
+            <div class="img_box">
+
+            </div>
+
+            <div class="img_counter" id="counter"> 1 / 8</div>
+
+            <div class="img_direction_div">¨
+                <img class="backBtn" id="back-btn" src="../assets/img/icons/left-arrow.png" class="back_btn" id="backBtn" alt="">
+                <img class="nextBtn" id="next-btn" src="../assets/img/icons/right-arrow.png" class="next_btn" id="nextBtn" alt="">
+            </div>
+        </dialog>
     </main>
     <footer>
       <div>
@@ -58,5 +77,7 @@
         <a href=""><img src="../assets/img/icons/whatsapp.png" alt="" /></a>
       </div>
     </footer>
+
+    <script src="../assets/js/galerie.js"></script>
 </body>
 </html>
