@@ -1,0 +1,29 @@
+.title_img {
+  width: 800px;
+  height: 400px;
+}
+
+.title_img_div {
+  display: flex;
+  justify-content: center;
+}
+
+.img_selector{
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 50px;
+  padding: 50px 16px 70px;
+  max-width: 1400px;
+  margin: 0 auto;
+  min-width: 0;
+}
+
+.img_selector img {
+  width: 300px;
+  height: 300px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+  object-fit: cover;
+}
