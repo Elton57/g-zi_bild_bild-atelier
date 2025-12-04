@@ -1,0 +1,80 @@
+:root {
+  --secondcolor: #9a6d8a;
+  --maincolor: #f5ecef;
+  --akzente: #c0e8d9;
+}
+.img_wand img {
+  width: 100vw;
+  height: 1000px;
+  position: absolute;
+  opacity: 0.3;
+}
+main {
+  display: flex;
+  justify-content: center;
+}
+.auftragsarbeiten_txt_section img {
+  height: 200px;
+  padding-top: 30px;
+}
+.auftragsarbeiten_txt_section {
+  font-size: 18px;
+  align-items: center;
+  font-family: "Josefin Sans", sans-serif;
+  max-width: 1000px;
+  font-weight: 500;
+}
+
+.strong_text {
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+}
+.border_line {
+  border-bottom: 1px solid #000;
+  width: 50%;
+  margin: 20px auto; /* Zentriert das Element */
+  text-align: center;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.kontakt_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 30px;
+  font-family: "Josefin Sans", sans-serif;
+  position: relative;        /* wichtig für ::before */
+}
+
+/* linke & rechte Spalte */
+.kontakt_links,
+.kontakt_rechts {
+  flex: 1;                    /* beide gleich breit */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+/* die Linie in der GENAUEN Mitte */
+.kontakt_div::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 0;
+  bottom: 30px;
+  width: 1px;
+  background-color: #000;
+}
+
+.kontakt_div img {
+  width: 50px;
+  padding-right: 10px;
+}
+
