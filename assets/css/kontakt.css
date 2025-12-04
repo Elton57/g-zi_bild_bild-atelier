@@ -6,15 +6,15 @@
 
 body {
   background-image: url("../img/Design\ ohne\ Titel.png");
-  background-size: cover; /* Bild füllt den gesamten Bildschirm */
-  background-repeat: no-repeat; /* kein Wiederholen */
-  background-attachment: fixed; /* bleibt fix, schönes Parallax-Feeling */
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-attachment: fixed; 
   background-position: center;
   min-height: 100vh;
 }
 
 .body_kontakt {
-  min-height: 100vh; /* Seite mindestens so hoch wie der Viewport */
+  min-height: 100vh; 
   display: flex;
   flex-direction: column;
 }
@@ -23,6 +23,20 @@ main {
   flex: 1;
 }
 
+.anschrift {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  padding: 20px 0 20px 0;
+  margin: 0px;
+}
+
+.anschrift p {
+  margin: 0px;
+}
 .form_div {
   display: flex;
   justify-content: space-around;
@@ -39,8 +53,8 @@ main {
 }
 
 .my-form {
-  width: 500px;
-  height: 545px;
+  width: 600px;
+
   padding: 0 1.5rem;
   border-style: solid;
   border-color: #c0e8d9;
@@ -101,10 +115,16 @@ main {
   padding: 0.65rem 1rem;
   border-radius: 0.5rem;
   border-color: transparent;
-
   color: black;
   font-weight: 700;
   font-size: 1rem;
-
   cursor: pointer;
+}
+
+.contact-note {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 0.9rem;
+  color: #444;
+  font-family: "Josefin Sans", sans-serif;
 }
