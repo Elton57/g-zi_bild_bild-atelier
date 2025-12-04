@@ -2,6 +2,7 @@
   --secondcolor: #9a6d8a;
   --maincolor: #f5ecef;
   --akzente: #c0e8d9;
+  --hover: #7dc4aa;
 }
 
 body {
@@ -32,6 +33,13 @@ nav a {
   text-decoration: none;
   font-family: "Josefin Sans", sans-serif;
   font-weight: bold;
+}
+
+nav a:hover {
+  cursor: pointer;
+  color: var(--hover);
+  transform: scale(1.08);
+  transform: translateY(-3px);
 }
 
 .img_logo {
@@ -169,10 +177,8 @@ footer {
   background-color: var(--secondcolor);
   align-items: center;
   padding-top: 5px;
-   
+
   border-top: 1px solid rgba(255, 255, 255, 0.15);
-
-
 }
 
 .agbs {
@@ -187,6 +193,12 @@ footer {
 .agbs a {
   color: var(--akzente);
   text-decoration: none;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.agbs a:hover {
+  text-decoration: underline;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 .footer-icon {
